@@ -9,9 +9,11 @@ const ProductsPage = () => {
       <Wrapper className='page'>
         <div className='section-center products'>
           <Filters />
+          <div>
+            <Sort />
+            <ProductList />
+          </div>
         </div>
-        <Sort />
-        <ProductList />
       </Wrapper>
     </main>
   );
