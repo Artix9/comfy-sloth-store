@@ -69,7 +69,7 @@ const filter_reducer = (state, action) => {
     return { ...state, filters: { ...state.filters, [name]: value } };
   }
   if (action.type === FILTER_PRODUCTS) {
-    console.log('filterring products');
+    // console.log('filterring products');
     return { ...state };
   }
 
